@@ -47,9 +47,12 @@ class Content
         void insertNodeStruct();
         void insertNodeData();
         void deleteNode();
+        int getHash(std::string in_title);
+        void changeName();
+        void checkHash();
+        void doTraverse();
     protected:
     private:
-        int getHash(std::string in_title);
         Node* root;
 };
 
